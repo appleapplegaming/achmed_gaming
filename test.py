@@ -14,7 +14,11 @@ questions = topic.questions
 async def on_ready():
     print(f"we're live as {bot.user}")
 
-
+@bot.command()
+async def turkey(ctx):
+  await ctx.reply(
+      "‼️🔥🥱🥱🐺🐺‼️🇹🇷🇹🇷🇹🇷🔥‼️🇹🇷🥱🥱🐺🔥 TÜRKIYE MENTIONED 🥱🥱🐺🔥🔥‼️🥱🇹🇷🇹🇷‼️🐺‼️🐺🔥‼️🐺‼️🥱🥱 WHAT THE FUCK IS ECONOMY 🇹🇷🇹🇷🇹🇷🥱🔥🥱🔥🐺🐺‼️🔥‼️🇹🇷🥱🇹🇷‼️🇹🇷🇹🇷‼️‼️🇹🇷🥱🐺🐺🔥🥱AWOOOOOO 🐺🐺‼️‼️‼️🔥🔥🥱🇹🇷🇹🇷🥱🥱🐺🔥🇹🇷🇹🇷🇹🇷🇹🇷"
+  )
 
 @bot.command()
 async def topic(ctx):
